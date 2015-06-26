@@ -1,5 +1,9 @@
-# yslow-nodejs
-Forked nodejs component of yslow from https://github.com/marcelduran/yslow and fixed jsdom version to 3.1.2 and upgraded yslow to version 3.1.8
+yslow-nodejs
+=====
+
+YSlow analyzes web pages and suggests ways to improve their performance based on a set of [rules for high performance web pages](http://developer.yahoo.com/performance/rules.html
+
+yslow-nodejs is forked from yslow's (https://github.com/marcelduran/yslow) nodejs component and fixed jsdom version to 3.1.2 and upgraded yslow to version 3.1.8
 
 # Installation
 
@@ -53,3 +57,14 @@ Usage: yslow-nodejs [options] [file ...]
 { w: 98725, o: 89, u: 'http%3A%2F%2Fexample.com%2F', r: 9, i: 'ydefault', lt: 981 }
 ```
 
+More Info
+---------
+
+[yslow.org](http://yslow.org)
+
+Licensing
+---------
+
+Copyright (c) 2012, Yahoo! Inc. All rights reserved.  
+Copyright (c) 2013, Marcel Duran and other contributors. All rights reserved.  
+Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
