@@ -1,0 +1,49 @@
+{
+  "name": "yslow-nodejs",
+  "version": "3.1.8",
+  "license": "New BSD License",
+  "description": "Forked nodejs component of yslow from https://github.com/marcelduran/yslow and fixed jsdom version to 3.1.2 and upgraded yslow version to 3.1.8",
+  "keywords": [
+    "yslow",
+    "performance",
+    "har",
+    "yahoo",
+    "wpo",
+    "command",
+    "line",
+    "automation"
+  ],
+  "homepage": "http://getyslow.com",
+  "author": {
+    "name": "Yahoo! Inc.",
+    "email": "yslow@yahoo-inc.com",
+    "url": "http://getyslow.com"
+  },
+  "main": "./lib/yslow",
+  "bin": {
+    "yslow-nodejs": "./bin/yslow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/senthilprabhut/yslow-nodejs"
+  },
+  "dependencies": {
+    "jsdom": "3.1.2",
+    "commander": "2.8.1"
+  },
+  "engines": {
+    "node": ">= 0.4.1"
+  },
+  "devDependencies": {},
+  "maintainers": [
+    {
+      "name": "senthil",
+      "email": "senthilprabhut@outlook.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/senthilprabhut/yslow-nodejs/issues"
+  },
+  "scripts": {},
+
+}
