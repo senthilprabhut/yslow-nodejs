@@ -1,6 +1,6 @@
 {
   "name": "yslow-nodejs",
-  "version": "3.1.8",
+  "version": "3.1.9",
   "description": "yslow-nodejs is forked from yslow's (https://github.com/marcelduran/yslow) nodejs component and fixed its jsdom version to 3.1.2 and upgraded yslow to version 3.1.8",
   "main": "./lib/yslow",
   "bin": {
